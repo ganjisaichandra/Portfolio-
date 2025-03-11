@@ -1,5 +1,5 @@
 import React from "react";
-import { Github, Behance, Linkedin, Instagram } from "lucide-react";
+import { Github, Twitter, Linkedin, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -26,7 +26,7 @@ const Footer = () => {
               href="#"
               className="text-gray-400 hover:text-purple-400 transition-colors"
             >
-              <Behance className="w-6 h-6" />
+              <Twitter className="w-6 h-6" />
             </a>
             <a
               href="https://www.linkedin.com/in/g-s-v-sai-chandra-494aa0227/"

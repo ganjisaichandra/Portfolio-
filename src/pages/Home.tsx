@@ -119,8 +119,9 @@ const Home = () => {
       </section> */}
       <section className="mt-10 text-center text-wrap md:text-4xl font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent py-6 animate-gradient">
         <p>
-          Designing Your Vision, Developing Your Success – Let’s Build Something
-          Extraordinary!
+          Designing Your Vision, Developing Your Success
+          <br />
+          Let’s Build Something Extraordinary!
         </p>
       </section>
 
