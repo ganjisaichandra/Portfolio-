@@ -27,8 +27,7 @@ const Contact = () => {
             <h1 className="text-4xl font-bold mb-6 text-white">Get in Touch</h1>
             <p className="text-gray-300 mb-8">
               Have a project in mind? Let's work together to create something
-              amazing. Fill out the form below and I'll get back to you as soon
-              as possible.
+              amazing.
             </p>
 
             <div className="space-y-6">
@@ -66,14 +65,14 @@ const Contact = () => {
                 <div>
                   <h3 className="font-medium text-white">Location</h3>
                   <p className="text-gray-300">
-                    Samalkot kakinada Andhra Pradesh
+                    Samalkot kakinada Andhra Pradesh-533440
                   </p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="bg-gray-900 rounded-2xl shadow-xl p-8 border border-gray-800">
+          {/* <div className="bg-gray-900 rounded-2xl shadow-xl p-8 border border-gray-800">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label
@@ -140,7 +139,7 @@ const Contact = () => {
                 <Send className="w-4 h-4" />
               </button>
             </form>
-          </div>
+          </div> */}
         </motion.div>
       </div>
     </div>

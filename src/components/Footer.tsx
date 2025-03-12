@@ -7,10 +7,10 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="text-center md:text-left mb-6 md:mb-0">
-            <h3 className="text-xl font-bold bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent">
+            <h3 className="font-Futura-Medium text-xl font-bold bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent">
               Let's create something amazing together
             </h3>
-            <p className="mt-2 text-gray-400">
+            <p className="font-Blantickscript mt-2 text-gray-400">
               Get in touch for collaborations and opportunities
             </p>
           </div>
@@ -45,7 +45,8 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
           <p>
-            &copy; {new Date().getFullYear()} Your Name. All rights reserved.
+            &copy; {new Date().getFullYear()} G.S.V.SAI CHANDRA. All rights
+            reserved.
           </p>
         </div>
       </div>

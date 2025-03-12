@@ -27,7 +27,7 @@ const Home = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="Stext-4xl md:text-6xl font-bold bg-gradient-to-r from-green-400 to-indigo-400 bg-clip-text text-transparent">
+            <h1 className="font-Futura-Bold Stext-8xl md:text-6xl font-bold bg-gradient-to-r from-green-400 to-indigo-400 bg-clip-text text-transparent p-3">
               Ganji Sai chandra
             </h1>
             <h1 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent">
@@ -61,7 +61,7 @@ const Home = () => {
       {/* Skills Section */}
       <section className="py-20 bg-black/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-white">
+          <h2 className="font-Futura-Bold text-3xl font-bold text-center mb-12 text-white">
             Skills & Expertise
           </h2>
           <div className="flex overflow-hidden">

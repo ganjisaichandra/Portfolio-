@@ -4,51 +4,43 @@ import { ExternalLink } from "lucide-react";
 
 const works = [
   {
-    title: "E-commerce Redesign",
+    title: "Techkriya College fest",
     category: "UI/UX Design",
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    deployment: "https://techkriya.vercel.app/",
   },
   {
     title: "Portfolio Website",
     category: "Web Development",
     image:
       "https://images.unsplash.com/photo-1517292987719-0369a794ec0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    deployment: "https://example.com/portfolio",
   },
   {
-    title: "Mobile App Design",
-    category: "UI Design",
+    title: "CommunionHUB",
+    category: "Frontend Development",
     image:
       "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    deployment: "https://commuion-hub.vercel.app/",
   },
   {
     title: "Brand Identity",
     category: "Graphic Design",
     image:
       "https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-  },
-  {
-    title: "Dashboard UI",
-    category: "Web Design",
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-  },
-  {
-    title: "Social Media App",
-    category: "Development",
-    image:
-      "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    deployment: "https://www.behance.net/saichandraganji1",
   },
 ];
 
 const Works = () => {
   return (
-    <div className="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
+    <div className="font-Futura-Bold pt-24 pb-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-4xl font-bold text-center mb-12 text-white"
+          className="font-Futura-Medium text-4xl font-bold text-center mb-12 text-white"
         >
           My Works
         </motion.h1>
@@ -74,6 +66,14 @@ const Works = () => {
                     {work.category}
                     <ExternalLink className="ml-2 w-4 h-4" />
                   </p>
+                  <a
+                    href={work.deployment}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-4 inline-block bg-blue-500 text-white font-semibold px-4 py-2 rounded-md hover:bg-blue-600 transition"
+                  >
+                    View Project
+                  </a>
                 </div>
               </div>
             </motion.div>
