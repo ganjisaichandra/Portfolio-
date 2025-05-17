@@ -27,7 +27,7 @@ const Home = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="font-Futura-Bold Stext-8xl md:text-6xl font-bold bg-gradient-to-r from-green-400 to-indigo-400 bg-clip-text text-transparent p-3">
+            <h1 className="font-Futura-Bold Stext-8xl md:text-6xl font-bold bg-white bg-clip-text text-transparent p-3">
               Ganji Sai chandra
             </h1>
             <h1 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent">
@@ -38,7 +38,7 @@ const Home = () => {
               Bringing ideas to life with creativity and precision.
             </p>
             <NavLink to="/works">
-              <button className="mt-6 px-6 py-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white rounded-lg hover:opacity-90 transition-opacity">
+              <button className="mt-6 px-6 py-3 bg-slate-100 rounded-lg hover:border hover:border-red-500 hover:opacity-200 transition-all">
                 View My Work
               </button>
             </NavLink>
@@ -50,7 +50,7 @@ const Home = () => {
             className="relative"
           >
             <img
-              src="https://media.licdn.com/dms/image/v2/D5603AQFpBEaO5pMRxg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730019602519?e=1747267200&v=beta&t=5_Rhzmr1JAX8g9mQkhWUDr425Byngt4LDuGMJAgyIm4"
+              src="https://avatars.githubusercontent.com/u/110524572?v=4"
               alt="Designer at work"
               className="rounded-2xl shadow-xl w-full max-w-[900px] h-auto sm:max-w-[400px] md:max-w 900px justify-end]"
             />

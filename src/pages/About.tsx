@@ -13,7 +13,7 @@ const About = () => {
         >
           <div className="relative">
             <img
-              src="https://media.licdn.com/dms/image/v2/D5603AQFpBEaO5pMRxg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730019602519?e=1747267200&v=beta&t=5_Rhzmr1JAX8g9mQkhWUDr425Byngt4LDuGMJAgyIm4"
+              src="https://avatars.githubusercontent.com/u/110524572?v=4"
               alt="Profile"
               className="rounded-2xl shadow-xl w-full max-w-[900px] h-auto sm:max-w-[400px] md:max-w 900px justify-evenly]"
             />
