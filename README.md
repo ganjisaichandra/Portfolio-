@@ -14,6 +14,7 @@ A modern portfolio website built with React and Tailwind CSS.
 - Tailwind CSS
 - Framer Motion
 - TypeScript
-
+## Deployed by 
+- Vercel
 ## License
 MIT
